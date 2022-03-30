@@ -116,7 +116,7 @@ export class SlimeEnemyEntity extends PathEnemyEntity {
         super(x, y, settings);
 
         // set a renderable
-        this.renderable = game.texture.createAnimationFromName([
+        this.renderable = stuff.texture.createAnimationFromName([
             "slime_normal.png", "slime_walk.png", "slime_dead.png"
         ]);
 
@@ -152,7 +152,7 @@ export class FlyEnemyEntity extends PathEnemyEntity {
         super(x, y, settings);
 
         // set a renderable
-        this.renderable = game.texture.createAnimationFromName([
+        this.renderable = stuff.texture.createAnimationFromName([
             "fly_normal.png", "fly_fly.png", "fly_dead.png"
         ]);
 

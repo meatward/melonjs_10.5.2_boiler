@@ -53,7 +53,7 @@ var resources = [
     * @example
     * { name: "example_fnt", type: "image", src: "data/img/example_fnt.png" },
     * { name: "example_fnt", type: "binary", src: "data/img/example_fnt.fnt" },
-    */
+    // */
     { name: "PressStart2P", type:"image", src: "data/fnt/PressStart2P.png" },
     { name: "PressStart2P", type:"binary", src: "data/fnt/PressStart2P.fnt"}
 ];
